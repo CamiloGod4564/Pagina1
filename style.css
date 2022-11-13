@@ -52,7 +52,7 @@
 .L{
     position: absolute;
     width: 1px;
-    height: 400px;
+    height: 310px;
     background-color: #000;
     left: 35%;
     top: 16%;
@@ -69,7 +69,7 @@
     position: absolute;
     width: 150px;
     height: 142px;
-    top: 78%;
+    top: 76%;
     left: 10%;
 
     background-image: url(./img/FLogo.JPG);
