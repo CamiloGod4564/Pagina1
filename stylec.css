@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.body{
+    position: relative;
+}
+
+.menu{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background: rgb(255, 255, 255);
+}
+
+.logo{
+    position: absolute;
+    width: 70px;
+    height: 64px;
+    left: 100px;
+    top: 5px;
+    
+    background-image: url(./img/Logo.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Smenu{
+    position: fixed;
+    width: 40px;
+    height: 32px;
+    left: 30px;
+    top: 20px;
+
+    background-image: url(./img/Smenu.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.carrito{
+    position: absolute;
+    width: 50px;
+    height: 43px;
+    left: 95%;
+    top: 20px;
+
+    background-image: url(./img/carrito.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.L{
+    position: absolute;
+    width: 1px;
+    height: 400px;
+    background-color: #000;
+    left: 35%;
+    top: 16%;
+}
+.Fmenu{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: rgba(41, 32, 32, 1);
+    top:70%;
+
+}
+.FLogo{
+    position: absolute;
+    width: 150px;
+    height: 142px;
+    top: 78%;
+    left: 10%;
+
+    background-image: url(./img/FLogo.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+.continer{
+    position: absolute;
+    width: 50%;
+    height: 320px;
+    background-color: rgba(217, 217, 217, 1);
+    left: 25%;
+    top: 25%;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+}
+.texto{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font: 1.2em sans-serif;
+    background-color:rgba(217, 217, 217, 1) ;
+}
+.texto1{
+    position: absolute;
+    background-color: rgba(217, 217, 217, 1);
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 60%;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    opacity: .5;
+    font-family: 'Gill Sans';
+    font-size: 25px;
+}
+.enviar{
+    position: absolute;
+    right: 5%;
+    top: 85%;
+    font-size: 20px;
+    opacity: .5;
+}
